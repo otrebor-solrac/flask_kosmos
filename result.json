@@ -1,0 +1,41 @@
+{
+  "resultado": [
+    {
+      "entidades": {
+        ".": "PUNCT",
+        "Apple": "PROPN",
+        "Reino": "PROPN",
+        "Unido": "PROPN",
+        "buscando": "VERB",
+        "comprar": "VERB",
+        "de": "ADP",
+        "del": "ADP",
+        "d\u00f3lares": "NOUN",
+        "est\u00e1": "AUX",
+        "mil": "NUM",
+        "millones": "NOUN",
+        "por": "ADP",
+        "startup": "NOUN",
+        "una": "DET"
+      },
+      "oracion": "Apple est\u00e1 buscando comprar una startup del Reino Unido por mil millones de d\u00f3lares."
+    },
+    {
+      "entidades": {
+        ".": "PUNCT",
+        "Francisco": "PROPN",
+        "San": "PROPN",
+        "acera": "NOUN",
+        "considera": "VERB",
+        "de": "ADP",
+        "en": "ADP",
+        "entrega": "NOUN",
+        "la": "DET",
+        "los": "DET",
+        "prohibir": "VERB",
+        "robots": "NOUN"
+      },
+      "oracion": "San Francisco considera prohibir los robots de entrega en la acera."
+    }
+  ]
+}
