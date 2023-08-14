@@ -1,1 +1,19 @@
-{"resultado": [{"entidades": {"Apple": "ORG", "Reino": "LOC", "Unido": "LOC"}, "oracion": "Apple est\u00e1 buscando comprar una startup del Reino Unido por mil millones de d\u00f3lares."}, {"entidades": {"Francisco": "LOC", "San": "LOC"}, "oracion": "San Francisco considera prohibir los robots de entrega en la acera."}]}
+{
+  "resultado": [
+    {
+      "entidades": { "Apple": "ORG", "Reino Unido": "LOC" },
+      "oracion": "Apple est\u00e1 buscando comprar una startup del Reino Unido por mil millones de d\u00f3lares."
+    },
+    {
+      "entidades": { "San Francisco": "LOC" },
+      "oracion": "San Francisco considera prohibir los robots de entrega en la acera."
+    },
+    {
+      "entidades": {
+        "Ciudad de M\u00e9xico": "LOC",
+        "Museo de Arte Contempor\u00e1neo": "LOC"
+      },
+      "oracion": "El Museo de Arte Contempor\u00e1neo est\u00e1 ubicado en la Ciudad de M\u00e9xico."
+    }
+  ]
+}

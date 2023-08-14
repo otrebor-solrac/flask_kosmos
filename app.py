@@ -29,9 +29,10 @@ def get_entities():
             doc = nlp(s)
             entities={}
 
-            for token in doc:
-                if token.ent_type_!= "":
-                    entities[token.text] = token.ent_type_
+            for token in doc.ents:
+                label = token.label_
+                if label != "":
+                    entities[token.text] = label
                     # entities[token.text] = token.pos_
             
             # Save results
